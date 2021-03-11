@@ -1,0 +1,73 @@
+::selection{
+    color: white;
+    background: #c90c0c;
+}
+
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/bg_2.jpg);
+    background-size: cover;
+}
+.doll_body{
+    position: fixed;
+    width: 100%;
+    left: 30%;
+    top: 20%;
+    height: 100%;
+    z-index: 2;
+    visibility: visible
+}
+.eyes{
+    position: absolute;
+    left: 46%;
+    top: 30%;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+}
+.left_e{
+    position: absolute;
+    left: 29%;
+    top: 45%;
+ 
+}
+.left_e img{
+width: 60%;
+height: 60%;
+ 
+}
+.right_e{
+    position: absolute;
+    left: 5%;
+    top: 28%;
+ 
+}
+.right_e img{
+width: 60%;
+height: 60%;
+ 
+}
+
+.box{
+position: fixed;
+width: 300px;
+height: 100px;
+left: 40%;
+top: 10%;
+background-color: black;
+z-index: 9;
+opacity: 0.8;
+text-align: center;
+}
+.box p{
+    color: white;
+}
+.con-1{
+    opacity: 1;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+}
